@@ -1,0 +1,85 @@
+/* User.module.scss */
+.random-user-container {
+    width: 100%;
+    height: 500px;
+    background: #2c2e31;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-card-frame {
+    max-width: 730px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 165px;
+}
+
+.random-user-card {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
+
+.user-image {
+    width: 151px;
+    border-radius: 50%;
+}
+
+.user-detail-label {
+    font-size: 1rem;
+    color: #888;
+}
+
+.user-detail-value {
+    color: #2c2e31;
+    font-size: 38px;
+    margin: 5px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.icon-list li {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 48px;
+    float: left;
+    margin: 20px;
+    background-size: 378px;
+    background-position-y: -48px;
+    transition: all .25s ease-out;
+}
+
+
+.icon-item {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.icon-image {
+    width: 24px;
+    height: 24px;
+}
